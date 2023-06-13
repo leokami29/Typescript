@@ -9,7 +9,7 @@ printID(1001); // Salida: "ID: 1001"
 
 
 interface Shape {
-    kind: "circle" | "rectangle" | "triangle";
+    kind: "circle" | "rectangle" | "triangle";  
     radius?: number; // Propiedad opcional para el círculo
     width?: number; // Propiedad opcional para el rectángulo
     altura?: number; // Propiedad opcional para el rectángulo
